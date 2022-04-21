@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: 	#FBEEC1;
+    background-color: #FFFFFF;
     overflow-x:hidden;
     margin: 0;
     padding: 0px;
@@ -70,19 +70,44 @@ img {
 #cute {
     margin-bottom: 22px;
 }
-table, th, td {
-    border: 1px solid black;
+
+.tablestyle {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-table {
-    border-collapse: collapse;
-    
+.tablestyle th, .tablestyle td {
+    padding: 12px 15px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+th, td {
+    padding: 2px;
+}
+
+.tattribute {
+    background-color: #333;
+    color: #ffffff;
+    text-align: left;
 }
 
 h1 {text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
     color: white;
+}
+
+p {
+    padding: 10px;
 }
 
 
