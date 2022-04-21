@@ -4,17 +4,24 @@ body {
     margin: 0;
 }
 
-.banner {
-    background-color: #659DBD;
+.bannerwrapper {
+    position: absolute;
+    background-color: #333;
     width: 100%;
 
+    top: 0px;
 }
 
-.navbar {
+.navlinks {
     text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
 }
 
-.navbar a:hover {
+
+nav a:hover {
     background-color: #A9A9A9;
     color: black;
 }
@@ -22,10 +29,9 @@ body {
 nav {
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    
 }
+
+
 .wrap {
     display: flex;
     justify-content: center;
@@ -57,10 +63,12 @@ table {
 h1 {text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
+    color: white;
 }
 
 #quote {text-align: center;
         margin-top: 0;
+        color: white;
 }
 
 }
@@ -73,7 +81,25 @@ h1 {text-align: center;
     padding-top: 0;
 }
 
+footer {
+    position: fixed;
+    background-color: #333;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color:white;
+}
+
+footer a:hover {
+    background-color: #A9A9A9;
+    color: black;
+}
+
 #links {
     
     text-align: center;
+    padding: 10px 12px;
+    font-size: 17px;
 }
