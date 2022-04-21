@@ -10,6 +10,22 @@ body {
 
 }
 
+.navbar {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #A9A9A9;
+    color: black;
+}
+
+nav {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
 .wrap {
     display: flex;
     justify-content: center;
